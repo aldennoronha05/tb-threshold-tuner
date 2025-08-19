@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "TB Threshold Tuner: Prevalence-Aware Triage with Policy-B Thresholding"
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Noronha"
+    given-names: "Alden"
+version: "0.1.0"
+date-released: "2025-08-19"
+license: "MIT"
+repository-code: "https://github.com/aldennoronha05/tb-threshold-tuner"
+preferred-citation:
+  type: software
+  title: "TB Threshold Tuner"
+  authors:
+    - family-names: "Noronha"
+      given-names: "Alden"
+  year: 2025
+  url: "https://github.com/<you>/tb-threshold-tuner"
+  notes: "Implements Policy B: safe cards enforce FN=0; optimal/efficiency cards allow FN ≤ 1 to maximize WLR."
