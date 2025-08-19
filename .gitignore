@@ -1,0 +1,32 @@
+﻿# Virtual env
+.venv/
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Editors/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit state
+.streamlit/
+
+# Data (keep sample, ignore your private predictions)
+data/your_predictions.csv
+data/*.parquet
+data/*.feather
+data/*.pkl
+!data/sample_predictions.csv
+
+# Ad-hoc export
+threshold_card.json
+
+# Logs
+*.log
